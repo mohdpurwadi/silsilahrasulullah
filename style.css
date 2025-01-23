@@ -1,0 +1,85 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #3498db;
+        }
+
+        .toggle-section {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .toggle-header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggle-header:hover {
+            background-color: #2980b9;
+        }
+
+        .toggle-content {
+            padding: 15px;
+            background-color: #f9f9f9;
+            display: none;
+        }
+
+        .toggle-content ul {
+            padding-left: 20px;
+        }
+
+        .toggle-content li {
+            margin-bottom: 5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+        }
+
+        /* Style for References */
+        .references {
+            margin-top: 30px;
+            padding: 15px;
+            border-top: 1px solid #ddd;
+        }
+
+        .references h2 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .references ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .references li {
+            margin-bottom: 8px;
+        }
